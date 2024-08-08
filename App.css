@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.listbox-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.listbox {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 150px;
+  height: 350px; 
+  overflow-y: auto; 
+}
+
+.listbox li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.listbox li:hover {
+  background-color: #f0f0f0;
+}
+
+.listbox li[aria-selected="true"] {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+.images {
+  width: 500px;
+  height: 350px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
